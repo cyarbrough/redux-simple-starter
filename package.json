@@ -1,0 +1,22 @@
+{
+  "name": "redux-simple-starter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.13",
+    "youtube-api-search": "^0.0.5"
+  },
+  "scripts": {
+    "start": "react-app-env start",
+    "build": "react-app-env build",
+    "test": "react-app-env test",
+    "test-o": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.5",
+    "react-app-env": "^1.2.0"
+  }
+}
