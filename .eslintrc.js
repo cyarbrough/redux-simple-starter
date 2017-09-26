@@ -3,9 +3,10 @@ module.exports = {
   parser: "babel-eslint",
   parserOptions: {
     ecmaVersion: 2017,
-    sourceType: 'module'
+    sourceType: 'module',
+    jsx: true
   },
-  extends: ['plugin:react/recommended'],
+  extends: ["eslint:recommended", "plugin:react/recommended"],
   env: {
     browser: true
   },
@@ -16,6 +17,9 @@ module.exports = {
     qunit: true,
     process: true
   },
+  "plugins": [
+    "react"
+  ],
   rules: {
     "brace-style": ["error", "1tbs", {
       allowSingleLine: true
