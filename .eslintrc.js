@@ -5,7 +5,7 @@ module.exports = {
     ecmaVersion: 2017,
     sourceType: 'module'
   },
-  extends: 'eslint:recommended',
+  extends: ['plugin:react/recommended'],
   env: {
     browser: true
   },
@@ -13,7 +13,8 @@ module.exports = {
     moment: true,
     sinon: true,
     server: true,
-    qunit: true
+    qunit: true,
+    process: true
   },
   rules: {
     "brace-style": ["error", "1tbs", {
